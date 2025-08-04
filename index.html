@@ -34,11 +34,20 @@
 						<!-- Me -->
 							<article id="home" class="panel intro">
 								<header>
-									<h1>Satarupaa Sinha</h1>
-									<p>She is an open book with mysterious pauses between the words. An introvert with a pen that talks louder than her thoughts and a soft skills trainer by profession.</p>
-                                    <p><b>Skills:</b></p>
-                                    <p style="font-size: 22px;"><em><b>Content Development, Team Maganement, Project Management, Public Speaking Training, Interpersonal Communication, Behavioural Training, Customer Relationship Management (CRM), VBA Excel</b></em> <p>
-								<a href="#work" class="jumplink pic">
+									<h2>Satarupaa Sinha</h2>
+									<p style="font-size: 22px;">She is an open book with mysterious pauses between the words. An introvert with a pen that talks louder than her thoughts and a soft skills trainer by profession.</p>
+                                    <p style="font-size: 20px;"><b>Skills:</b></p>
+                                    <ul class="skills-buttons">
+                                      <li><span>Content Development</span></li>
+                                      <li><span>Team Management</span></li>
+                                      <li><span>Project Management</span></li>
+                                      <li><span>Public Speaking Training</span></li>
+                                      <li><span>Interpersonal Communication</span></li>
+                                      <li><span>Behavioural Training</span></li>
+                                      <li><span>Customer Relationship Management (CRM)</span></li>
+                                      <li><span>Excel VBA</span></li>
+                                    </ul>
+  							<a href="#work" class="jumplink pic">
 								</header>
                                 <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
                                     <!-- <img src="images/me.jpg" alt="" /> -->
@@ -134,32 +143,10 @@
 									<h2>Contact Me</h2>
 								</header>
                                     <ul>
-                                        <li><b>Email:</b> stahaquotes@gmail.com</li>
+                                        <li><b>Email:</b> satarupaa.sinha@gmail.com</li>
                                       <li><b>Linkedin:</b> <a href="https://www.linkedin.com/in/satarupa-sinha-29472b322/" target="_blank">Link</a></li>
                                     </ul>
-                                <!--
-								<form action="#" method="post">
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
-                                -->
+                                
 							</article>
 
 					</div>
@@ -180,5 +167,28 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-	</body>
+	    <style>
+            .skills-buttons {
+                display: flex;          /* lay items side-by-side */
+                flex-wrap: wrap;        /* wrap to next line when needed */
+                gap: 1px;               /* small spacing between boxes */
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                font-size: 15px;
+              }
+              .skills-buttons li > span {
+                display: inline-flex;   /* center text inside each box */
+                align-items: center;
+                justify-content: center;
+                padding: 7px 10px;
+                border: 1px solid #d0d0d0;
+                border-radius: 8px;     /* set to 0 for sharp corners */
+                background: #f8f8f8;
+                line-height: 1.1;
+                text-align: center;
+                white-space: nowrap;    /* keep each on one line; remove if you want wrapping */
+              }
+        </style>
+    </body>
 </html>
